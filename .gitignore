@@ -2,3 +2,4 @@
 Data/*
 Code/Deprecated/*
 Results/*
+Code/__pycache__/*
