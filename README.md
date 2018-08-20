@@ -1,13 +1,9 @@
 # neisseria-rna-seq
 
-This repository includes all the code used in a forthcoming manuscript analyzing the transcriptome response of Neisseria gonorrhoeae to oxidative challenge. 
+This repository includes all the code used in a forthcoming manuscript analyzing the transcriptome response of Neisseria gonorrhoeae to oxidative challenge (doi will be provided upon publication).
 
-Currently, this repository is a work-in-progress during manuscript preparation/submission and will subsequently be cleaned to remove extraneous information and to include explicit instructions with regard to repeating any computational analyses that appear in the final manuscript. 
+For the computational side of things, this analysis in the end primarily consisted of a differential expression analysis using Kallisto. Instructions to run Kallisto, and code to create tables of differentially expressed genes from Kallisto/Sleuth output all appear in the `Code` directory. Raw data is not supplied here and users are directed to NCBI GEO GSE114819. A variety of files, however are made available in `Data_release` for those interested in our overall pipeline.
 
-For the code to run properly, users are required to create two separate folders in this home directory that are not currently included as part of the repository: `Data/` and `Results/` 
-
-These directories are currently ommitted for size constraints but explicit instructions where to find the data required to perform the analysis will be updated upon manuscript publication. 
-
-In the meantime, any questions should be directed to the repository owner.
+Of note, the dRNA-seq pipeline we ran was primarily manual so code for this portion does not appear here. The relevant `.wig` files (available at GEO) were visualized in IGV and annotation of peaks was performed manually.
 
 -Adam J Hockenberry

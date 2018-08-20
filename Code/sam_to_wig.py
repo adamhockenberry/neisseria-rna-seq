@@ -17,7 +17,7 @@ if __name__ == '__main__':
     wiggle_out_normed_f = args.filename.replace('.sam', 'normed_f.wig')
     wiggle_out_normed_r = args.filename.replace('.sam', 'normed_r.wig')
     #######Read the genome
-    genome_list = list(SeqIO.parse('../Data/Genomes/fa1090.gb', 'genbank'))
+    genome_list = list(SeqIO.parse('../Data_release/fa1090.gb', 'genbank'))
     assert len(genome_list) == 1
     genome = genome_list[0]
     #######Instantiate empty dictionaries
